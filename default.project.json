@@ -1,19 +1,9 @@
 {
-  "name": "topbarplus",
+  "name": "TopbarPlus",
+  "globIgnorePaths": [
+    "**/PackageLink.model.json"
+  ],
   "tree": {
-    "$className": "DataModel",
-
-    "ReplicatedStorage": {
-      "$className": "ReplicatedStorage",
-
-      "TopbarPlus": {
-        "$className": "Folder",
-
-        "Icon": {
-          "$path": "src/Icon"
-        }
-
-      }
-    }
+    "$path": "src"
   }
 }
